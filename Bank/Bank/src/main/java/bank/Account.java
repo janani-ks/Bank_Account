@@ -1,10 +1,10 @@
 package bank;
 
 public class Account {
-	private String accno;
+	private long accno;
     private String name;
     private double bal;
-    Account(String an,String n,double b){
+    Account(long an,String n,double b){
         this.accno=an;
         this.name=n;
         this.bal=b;
